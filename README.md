@@ -8,7 +8,7 @@ conda create -n GhostServe python=3.10
 
 conda activate GhostServe
 
-git clone https://github.com/ShakyaJayakody/GhostServe.git && cd GhostServe
+git clone https://github.com/project-ghostserve/26mlsys-AE-GhostServe.git && cd 26mlsys-AE-GhostServe
 
 pip install -r requirements.txt
 
