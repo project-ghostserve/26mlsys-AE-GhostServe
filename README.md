@@ -13,7 +13,10 @@ git clone https://github.com/project-ghostserve/26mlsys-AE-GhostServe.git && cd 
 pip install -r requirements.txt
 
 pip install "flashinfer-python==0.3.1"
+```
 
+## Run
+```bash
 export HF_TOKEN="YOUR_TOKEN"
 
 python bench_ghostserve_rdp.py \
