@@ -1,12 +1,11 @@
-# Checkpointing/Recovery Kernels (XOR / RS / RDP) for KV Cache
+# A Suite of Customized CUDA Kernels for Erasure Coding.
 
-A suite of customized CUDA kernels for erasure coding.
 ---
 ## Run
 
 ```bash
 conda activate GhostServe
 
-cd /benchmark/XOR/
+cd /benchmark/xor
 python main.py --num_data_shards 8 --num_parity_shards 1
 ```
