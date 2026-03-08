@@ -1,5 +1,6 @@
 # Checkpointing/Recovery Kernels (XOR / RS / RDP) for KV Cache
 
+A suite of customized CUDA kernels for erasure coding.
 ---
 ## Run
 
