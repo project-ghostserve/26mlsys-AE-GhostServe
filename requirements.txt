@@ -12,6 +12,9 @@ safetensors>=0.4.3
 # Recommended: install torch separately from https://pytorch.org/get-started/locally/
 torch>=2.3.0
 
+# SGLang backend (GhostServe launches sglang.launch_server)
+sglang[all]==0.5.1
+
 # Optional but commonly needed by transformers/tokenizers stacks
 numpy>=1.24.0
 packaging>=23.0
